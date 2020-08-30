@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ph_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_title"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_title"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_below="@id/ph_title"
+        android:layout_alignStart="@id/ph_title"
+        android:id="@+id/ph_series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_series"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_series"
+        android:layout_alignTop="@id/ph_series"
+        android:id="@+id/series"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_below="@id/ph_series"
+        android:layout_alignStart="@id/ph_series"
+        android:id="@+id/ph_season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_season"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_season"
+        android:layout_alignTop="@id/ph_season"
+        android:id="@+id/season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_below="@id/ph_season"
+        android:layout_alignStart="@id/ph_season"
+        android:id="@+id/ph_episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_episode"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_episode"
+        android:layout_alignTop="@id/ph_episode"
+        android:id="@+id/episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_below="@id/ph_episode"
+        android:layout_alignStart="@id/ph_episode"
+        android:id="@+id/ph_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_air"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_date"
+        android:layout_alignTop="@id/ph_date"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_below="@id/ph_date"
+        android:layout_alignStart="@id/ph_date"
+        android:id="@+id/ph_chars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/epiitem_characters"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/colorPrimaryText"/>
+
+    <TextView
+        android:layout_toEndOf="@id/ph_chars"
+        android:layout_alignTop="@id/ph_chars"
+        android:id="@+id/chars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Into the moon"
+        android:textColor="@color/colorPrimaryText"/>
+
+</RelativeLayout>

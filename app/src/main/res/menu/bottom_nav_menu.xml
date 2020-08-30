@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_char"
+        android:icon="@drawable/ic_user_char"
+        android:title="@string/characters"/>
+
+    <item
+        android:id="@+id/navigation_epi"
+        android:icon="@drawable/ic_episode"
+        android:title="@string/episodes"/>
+
+    <item
+        android:id="@+id/navigation_quote"
+        android:icon="@drawable/ic_quote"
+        android:title="@string/quotes"/>
+
+    <item
+        android:id="@+id/navigation_rip"
+        android:icon="@drawable/ic_rip_death"
+        android:title="@string/deaths"/>
+
+</menu>

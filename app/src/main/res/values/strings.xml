@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Breaking Bad Lite</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="quotes">Quotes</string>
+    <string name="deaths">Deaths</string>
+
+    <string name="chitem_name">Name:</string>
+    <string name="chitem_bday">Birthday:</string>
+    <string name="chitem_ocp">Occupation:</string>
+    <string name="chitem_status">Status:</string>
+    <string name="chitem_nick">Nickname:</string>
+    <string name="chitem_appr">Appearance in BB:</string>
+    <string name="chitem_port">Portrayed:</string>
+    <string name="chitem_cat">Category:</string>
+    <string name="chitem_bcs">Appearance in BCS:</string>
+
+    <string name="epiitem_title">Title:</string>
+    <string name="epiitem_series">Series:</string>
+    <string name="epiitem_season">Season:</string>
+    <string name="epiitem_episode">Episode:</string>
+    <string name="epiitem_air">Air Date:</string>
+    <string name="epiitem_characters">Characters:</string>
+
+    <string name="item_death">Death:</string>
+    <string name="item_cause">Cause:</string>
+    <string name="item_resp">Responsible:</string>
+    <string name="item_last">Last Words:</string>
+    <string name="item_sea">Season:</string>
+    <string name="item_epi">Episode:</string>
+    <string name="item_nos">Death Count:</string>
+
+</resources>
