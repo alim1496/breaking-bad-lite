@@ -1,6 +1,4 @@
 # breaking-bad-lite
-### Demo Screenshots:
-![Screenshot 2](https://imgur.com/a/kqTriwr)
-![Screenshot 3](./preview/118242294_10223436772457693_5276199211912480671_o.PNG)
-![Screenshot 4](./preview/118472417_10223436772857703_240004400121541802_o.PNG)
-![Screenshot 5](./preview/118269746_10223436773097709_3071547768266255787_o.PNG)
+An android application showing the characters, episodes, quotes and deaths from the renowned tv series `Breaking Bad` along with `Better Call Saul` 
+It has been developed with android architecture components like `viewmodel`, `room persistent library`, `livedata`
+The data has been collected from `Breaking Bad Free Api`
