@@ -1,6 +1,7 @@
 package com.appwiz.breakingbad.viewmodel
 
 import android.app.Application
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -14,6 +15,7 @@ import com.google.gson.GsonBuilder
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.lang.Exception
 import java.lang.StringBuilder
 import java.net.HttpURLConnection
 import java.net.URL
@@ -52,9 +54,13 @@ class CharactersViewModel(application: Application): AndroidViewModel(applicatio
                 sb.append(s)
                 if (index != ch.occupation.size - 1) sb.append(", ")
             }
-            ch.appearance.forEachIndexed { index, s ->
-                appsb.append(s)
-                if (index != ch.appearance.size - 1) appsb.append(", ")
+            try {
+                ch.appearance.forEachIndexed { index, s ->
+                    appsb.append(s)
+                    if (index != ch.appearance.size - 1) appsb.append(", ")
+                }
+            } catch (e:Exception) {
+                Log.e("crash", "error is ${e.message}")
             }
             ch.appearanceBCS.forEachIndexed { index, s ->
                 bcssb.append(s)
